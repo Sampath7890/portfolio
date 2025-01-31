@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff0084;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #ff7f50;
+    margin-top: 20px;
+}
+
+/* Slider */
+.slider-container {
+    position: relative;
+    max-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+/* Navigation Bar */
+header {
+    background: rgba(255, 111, 0, 0.5);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #ff7f50; /* Thick bottom border */
+}
+
+/* General Page Borders */
+body {
+    margin: 20px;
+    padding: 0;
+    border: 6px solid #ff7f50; /* Thick border around the entire page */
+    border-radius: 15px;
+}
+
+/* Section Styling with Borders */
+section {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ff7f50; /* Border around each section */
+    border-radius: 12px;
+    width: 85%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+#about img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #ff7f50; /* Circular border around the image */
+    display: block;
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff7f50;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
